@@ -1,6 +1,7 @@
 <template>
   <div class="welcome-information">
-    <h1>{{ title }}</h1>
+    <h1>This is for testing</h1>
+    <h2>{{ title }}</h2>
     <p class="welcome-information__text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -35,14 +36,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../scss/variables.scss';
-
 .welcome-information {
   width: 90%;
   margin: 3em auto;
   text-align: left;
 
-  @media (min-width: $screen-sm) {
+  @media (min-width: 480px) {
     width: 60%;
   }
 }
