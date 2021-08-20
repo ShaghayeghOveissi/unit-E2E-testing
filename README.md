@@ -6,6 +6,10 @@ This Welcome page has been built using Vue.js as a JavaScript framework and I ha
 ```
 It has been tested on all the browsers, including IE11.
 ```
+### Testing
+```
+Using Cypress for end to end testing and Mocha for Unit testing.
+```
 ## Project setup
 ```
 npm install
